@@ -1,0 +1,46 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#newCanvas{    
+    background-color: black;
+    z-index: 0;
+}
+
+.messageCon{
+    position: absolute;
+    background-color: rgba(0,0,0, 0.7);
+    width: 900px;
+    height: 900px;
+    display: none;
+    z-index: 2;
+    top: 450;
+    left: 450;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.restartBtn{
+    z-index: 3;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.message{
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.scores{
+    color: rgb(202, 30, 236);
+    font-weight: bold;
+}
